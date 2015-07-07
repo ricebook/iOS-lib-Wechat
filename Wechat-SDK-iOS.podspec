@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
 
   s.framework = 'SystemConfiguration'
 
-  s.libraries = "libz", "libsqlite3.0"
+  s.library = "z"
 
+  s.xcconfig = { 'OTHER_LDFLAGS' => '/usr/lib/libsqlite3.0.dylib' }
 
 end
