@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'Wechat-SDK-iOS'
-  s.version      = '1.6.2'
+  s.version      = '1.7'
   s.summary      = 'ENJOY used SDK for iOS'
 
   s.homepage     = 'https://github.com/ricebook/iOS-lib-Wechat'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.vendored_library = 'lib/*.a'
 
 
-  s.framework = 'SystemConfiguration'
+  s.frameworks = 'SystemConfiguration', 'Security'
 
   s.libraries = "z", "c++", "sqlite3.0"
 
