@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'Wechat-SDK-iOS'
-  s.version      = '1.7'
+  s.version      = '1.7.5'
   s.summary      = 'ENJOY used SDK for iOS'
 
   s.homepage     = 'https://github.com/ricebook/iOS-lib-Wechat'
